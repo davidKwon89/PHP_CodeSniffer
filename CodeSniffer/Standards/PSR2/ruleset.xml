@@ -11,7 +11,7 @@
  <rule ref="PSR1"/>
 
  <!-- 2.2 Files -->
-
+ 
  <!-- All PHP files MUST use the Unix LF (linefeed) line ending. -->
  <rule ref="Generic.Files.LineEndings">
   <properties>
@@ -26,12 +26,12 @@
  <!-- checked in Files/ClosingTagSniff -->
 
  <!-- 2.3 Lines -->
-
+ <exclude name="Generic.Files.LineLength"/>
  <!-- The soft limit on line length MUST be 120 characters; automated style checkers MUST warn but MUST NOT error at the soft limit. -->
  <rule ref="Generic.Files.LineLength">
   <properties>
-   <property name="lineLimit" value="120"/>
-   <property name="absoluteLineLimit" value="0"/>
+   <property name="lineLimit" value="N"/>
+   <property name="absoluteLineLimit" value="N"/>
   </properties>
  </rule>
 
